@@ -14,14 +14,14 @@ def random_number(max_int):
     rand_num = (random.randint(a=1, b=max_int))
     return rand_num
 
-a_number = random_number(50)
-print(a_number)
+the_number = random_number(50)
+print(the_number)
 
 print("ur result is: ")
-if (a_number + a_number) <=50:
-    print(a_number + a_number)
-elif(a_number + a_number) >=51:
-    print("error")
+if (a_number + the_number) <50:
+    print("Error, number too small")
+elif(a_number + the_number) >51:
+    print(a_number + the_number)
 
 
 
